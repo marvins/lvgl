@@ -35,6 +35,18 @@ typedef enum {
     LV_KEY_PREV      = 11,  /*0x0B, '*/
     LV_KEY_HOME      = 2,   /*0x02, STX*/
     LV_KEY_END       = 3,   /*0x03, ETX*/
+    LV_KEY_F1        = 270, /*0x1B, 'O', 'P' */
+    LV_KEY_F2        = 271, /*0x1B, 'O', 'Q' */
+    LV_KEY_F3        = 272, /*0x1B, 'O', 'R' */
+    LV_KEY_F4        = 273, /*0x1B, 'O', 'S' */
+    LV_KEY_F5        = 274, /* */
+    LV_KEY_F6        = 275, /* */
+    LV_KEY_F7        = 276, /* */
+    LV_KEY_F8        = 277, /* */
+    LV_KEY_F9        = 278, /* */
+    LV_KEY_F10       = 279, /* */
+    LV_KEY_F11       = 280, /* */
+    LV_KEY_F12       = 281, /* */
 } lv_key_t;
 
 /**********************

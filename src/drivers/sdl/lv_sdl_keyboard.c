@@ -210,6 +210,31 @@ static uint32_t keycode_to_ctrl_key(SDL_Keycode sdl_key)
         case SDLK_END:
             return LV_KEY_END;
 
+        case SDLK_F1:
+            return LV_KEY_F1;
+        case SDLK_F2:
+            return LV_KEY_F2;
+        case SDLK_F3:
+            return LV_KEY_F3;
+        case SDLK_F4:
+            return LV_KEY_F4;
+        case SDLK_F5:
+            return LV_KEY_F5;
+        case SDLK_F6:
+            return LV_KEY_F6;
+        case SDLK_F7:
+            return LV_KEY_F7;
+        case SDLK_F8:
+            return LV_KEY_F8;
+        case SDLK_F9:
+            return LV_KEY_F9;
+        case SDLK_F10:
+            return LV_KEY_F10;
+        case SDLK_F11:
+            return LV_KEY_F11;
+        case SDLK_F12:
+            return LV_KEY_F12;
+
         default:
             return '\0';
     }
